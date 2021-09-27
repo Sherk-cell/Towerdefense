@@ -6,13 +6,13 @@ public class aim : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
+    public Transform arm;
     
     float xRotation = 0f;
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        
 
 
     }
@@ -28,6 +28,7 @@ public class aim : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
-        
+        arm.Rotate(Vector3.up * mouseX);
+
     }
 }

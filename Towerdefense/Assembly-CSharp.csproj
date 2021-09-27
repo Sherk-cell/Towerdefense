@@ -55,6 +55,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\aim.cs" />
     <Compile Include="Assets\Scripts\Camswitch.cs" />
+    <Compile Include="Assets\Scripts\waypointcontroller.cs" />
+    <Compile Include="Assets\Scripts\gun.cs" />
+    <Compile Include="Assets\Scripts\fpsaimer.cs" />
+    <Compile Include="Assets\Scripts\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
